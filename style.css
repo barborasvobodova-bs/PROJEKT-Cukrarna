@@ -116,6 +116,7 @@ h3 {
 	color: #3e606b;
 	font-weight: bold;
 	font-family: Playfair display;
+	margin-top: 0px
 }
 
 .sloupce {
@@ -166,18 +167,22 @@ h3 {
 	padding-right: 0px;
 	margin-left: 0px;
 	margin-right: 30px;
-}
+	box-shadow: 5px 5px 5px #808080;
+	}
 
 
 .popisek {
 	display: block;
 	background-color: white;
 	text-align: center;
-	border-radius: 5px;
+	border-radius: 0px 0px 5px 5px;
 	padding: 20px;
 	margin-top: 0;
 }
 
+.obrazek{
+	border-radius: 5px 5px 0px 0px;
+}
 
 .vpravo {
 	flex-basis: 50%;
@@ -186,6 +191,11 @@ h3 {
 .vlevo {
 	flex-basis: 50%;
 	padding-left: 30px;
+}
+
+.vpravo,
+.pravysloupec {
+	border-radius: 5px;
 }
 
 .paticka {
